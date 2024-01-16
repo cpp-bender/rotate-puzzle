@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4086cc79930cdb44882058719e3498a, type: 3}
+  m_Name: temp-grid-settings
+  m_EditorClassIdentifier: 
+  gridPrefab: {fileID: 3500896355477134793, guid: a8c9799ccee3d814889949663585ebc9, type: 3}
+  initialPos: {x: -18, y: 0, z: -18}
+  width: 20
+  height: 20
+  widthThreshold: 1
+  heightThreshold: 1

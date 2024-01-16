@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2193d5aa78524ed4ab919183bf412c94, type: 3}
+  m_Name: Level 29
+  m_EditorClassIdentifier: 
+  gridSettings: {fileID: 11400000, guid: a4a9b00a31138744abb1719596c8150b, type: 2}
+  brickData:
+  - parentBrick: {fileID: 3724665538450389800, guid: a091a0f4fa9ba4e40b0bb471641cd1cc, type: 3}
+    initialRotation: 1
+    nextRotation: 0
+    material: {fileID: 2100000, guid: a8774bc0efe021742b7f8699ec1801a9, type: 2}
+    gridIndex: 251
+    children: []
+  - parentBrick: {fileID: 6716187081442777768, guid: 98f26ab20fd343b4db5dc1130c525046, type: 3}
+    initialRotation: 3
+    nextRotation: 0
+    material: {fileID: 2100000, guid: a8774bc0efe021742b7f8699ec1801a9, type: 2}
+    gridIndex: 251
+    children:
+    - parentBrick: {fileID: 7238081156108987821, guid: fea13917e9d1fb74da6800b3c473be56, type: 3}
+      initialRotation: 1
+      nextRotation: 2
+      material: {fileID: 2100000, guid: a8774bc0efe021742b7f8699ec1801a9, type: 2}
+      gridIndex: 191
+      children: []
+  - parentBrick: {fileID: 3724665538450389800, guid: fcc64ef6b88eca04a92c0712a4a10da8, type: 3}
+    initialRotation: 0
+    nextRotation: 0
+    material: {fileID: 2100000, guid: 6116c7f6f2145f04cbc3fcbbb8712b92, type: 2}
+    gridIndex: 168
+    children: []
+  - parentBrick: {fileID: 6716187081442777768, guid: 4977888654f43034dafdacf03c7454d8, type: 3}
+    initialRotation: 2
+    nextRotation: 1
+    material: {fileID: 2100000, guid: 6116c7f6f2145f04cbc3fcbbb8712b92, type: 2}
+    gridIndex: 168
+    children: []
+  - parentBrick: {fileID: 6716187081442777768, guid: 4977888654f43034dafdacf03c7454d8, type: 3}
+    initialRotation: 0
+    nextRotation: 2
+    material: {fileID: 2100000, guid: 6116c7f6f2145f04cbc3fcbbb8712b92, type: 2}
+    gridIndex: 170
+    children: []
+  - parentBrick: {fileID: 6407336544377580156, guid: 4ad4e9c06b68f20428119d3679f5b94a, type: 3}
+    initialRotation: 1
+    nextRotation: 2
+    material: {fileID: 2100000, guid: 3b4edde236e7e6c4f95a452f21e6caef, type: 2}
+    gridIndex: 212
+    children: []
+  - parentBrick: {fileID: 3724665538450389800, guid: 2e311e8bfd98dda47acbb1e556b70c2e, type: 3}
+    initialRotation: 2
+    nextRotation: 0
+    material: {fileID: 2100000, guid: fa879d46f9783f64fa5edf981f28d6d0, type: 2}
+    gridIndex: 209
+    children: []
+  - parentBrick: {fileID: 7238081156108987821, guid: fea13917e9d1fb74da6800b3c473be56, type: 3}
+    initialRotation: 1
+    nextRotation: 3
+    material: {fileID: 2100000, guid: fa879d46f9783f64fa5edf981f28d6d0, type: 2}
+    gridIndex: 209
+    children: []
+  cameraSettings: {fileID: 11400000, guid: 95fac37753c40e24f8c27bf04d2f1408, type: 2}
+  frameSettings: {fileID: 11400000, guid: 265c24cc9cf7bde42ad4e7f9ddd560be, type: 2}

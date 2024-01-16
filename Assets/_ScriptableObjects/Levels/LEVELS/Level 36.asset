@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2193d5aa78524ed4ab919183bf412c94, type: 3}
+  m_Name: Level 36
+  m_EditorClassIdentifier: 
+  gridSettings: {fileID: 11400000, guid: 5170b2fdc77b2a5428ee5d18aa767ae9, type: 2}
+  brickData:
+  - parentBrick: {fileID: 7785623861221813860, guid: af25fa6cc972c08418bda67ffbdf8049, type: 3}
+    initialRotation: 1
+    nextRotation: 2
+    material: {fileID: 2100000, guid: 3a8d8b49e23e60b4d92eeb199aff8906, type: 2}
+    gridIndex: 168
+    children: []
+  - parentBrick: {fileID: 8628271229394401024, guid: ab0237e241d2d014da6a5d55bc678fa9, type: 3}
+    initialRotation: 0
+    nextRotation: 3
+    material: {fileID: 2100000, guid: fa879d46f9783f64fa5edf981f28d6d0, type: 2}
+    gridIndex: 210
+    children:
+    - parentBrick: {fileID: 7238081156108987821, guid: fea13917e9d1fb74da6800b3c473be56, type: 3}
+      initialRotation: 2
+      nextRotation: 0
+      material: {fileID: 2100000, guid: fa879d46f9783f64fa5edf981f28d6d0, type: 2}
+      gridIndex: 212
+      children: []
+  - parentBrick: {fileID: 2762853796600403688, guid: 5e0c92c6c29a6e949bedc30089fcfcf4, type: 3}
+    initialRotation: 0
+    nextRotation: 3
+    material: {fileID: 2100000, guid: e3d31ea0d476d1542b45eba004e15e28, type: 2}
+    gridIndex: 269
+    children: []
+  - parentBrick: {fileID: 8628271229394401024, guid: ab0237e241d2d014da6a5d55bc678fa9, type: 3}
+    initialRotation: 0
+    nextRotation: 2
+    material: {fileID: 2100000, guid: e3d31ea0d476d1542b45eba004e15e28, type: 2}
+    gridIndex: 171
+    children:
+    - parentBrick: {fileID: 8628271229394401024, guid: ab0237e241d2d014da6a5d55bc678fa9, type: 3}
+      initialRotation: 0
+      nextRotation: 2
+      material: {fileID: 2100000, guid: e3d31ea0d476d1542b45eba004e15e28, type: 2}
+      gridIndex: 173
+      children:
+      - parentBrick: {fileID: 8628271229394401024, guid: 172fdb3bde04c174e87b37d3160ed240, type: 3}
+        initialRotation: 2
+        nextRotation: 0
+        material: {fileID: 2100000, guid: e3d31ea0d476d1542b45eba004e15e28, type: 2}
+        gridIndex: 133
+        children: []
+  - parentBrick: {fileID: 3724665538450389800, guid: 9fd1403df0a34f743a613802226bbad5, type: 3}
+    initialRotation: 2
+    nextRotation: 2
+    material: {fileID: 2100000, guid: 2c1b03e6f77e7fb4a8f935aa00778c35, type: 2}
+    gridIndex: 172
+    children: []
+  - parentBrick: {fileID: 8628271229394401024, guid: ab0237e241d2d014da6a5d55bc678fa9, type: 3}
+    initialRotation: 2
+    nextRotation: 0
+    material: {fileID: 2100000, guid: 2c1b03e6f77e7fb4a8f935aa00778c35, type: 2}
+    gridIndex: 231
+    children:
+    - parentBrick: {fileID: 8628271229394401024, guid: ab0237e241d2d014da6a5d55bc678fa9, type: 3}
+      initialRotation: 2
+      nextRotation: 0
+      material: {fileID: 2100000, guid: 2c1b03e6f77e7fb4a8f935aa00778c35, type: 2}
+      gridIndex: 271
+      children:
+      - parentBrick: {fileID: 8628271229394401024, guid: 172fdb3bde04c174e87b37d3160ed240, type: 3}
+        initialRotation: 2
+        nextRotation: 0
+        material: {fileID: 2100000, guid: 2c1b03e6f77e7fb4a8f935aa00778c35, type: 2}
+        gridIndex: 311
+        children: []
+  - parentBrick: {fileID: 3724665538450389800, guid: 9fd1403df0a34f743a613802226bbad5, type: 3}
+    initialRotation: 2
+    nextRotation: 0
+    material: {fileID: 2100000, guid: 2c1b03e6f77e7fb4a8f935aa00778c35, type: 2}
+    gridIndex: 232
+    children: []
+  - parentBrick: {fileID: 6407336544377580156, guid: 1c6994de41b754d47a612a71b7d4bd57, type: 3}
+    initialRotation: 0
+    nextRotation: 2
+    material: {fileID: 2100000, guid: 2c1b03e6f77e7fb4a8f935aa00778c35, type: 2}
+    gridIndex: 250
+    children: []
+  cameraSettings: {fileID: 11400000, guid: 9e5a17b349cfb09428965669e1b3b334, type: 2}
+  frameSettings: {fileID: 11400000, guid: 26811ba7933fbd3458e4222b998f1efa, type: 2}

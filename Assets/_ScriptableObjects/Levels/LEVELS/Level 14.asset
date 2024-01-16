@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2193d5aa78524ed4ab919183bf412c94, type: 3}
+  m_Name: Level 14
+  m_EditorClassIdentifier: 
+  gridSettings: {fileID: 11400000, guid: b56e588d541d379468381eae1073d688, type: 2}
+  brickData:
+  - parentBrick: {fileID: 8628271229394401024, guid: 172fdb3bde04c174e87b37d3160ed240, type: 3}
+    initialRotation: 2
+    nextRotation: 0
+    material: {fileID: 2100000, guid: a8774bc0efe021742b7f8699ec1801a9, type: 2}
+    gridIndex: 228
+    children: []
+  - parentBrick: {fileID: 3724665538450389800, guid: b8f64e35cce3e474a8999cb53dc984c3, type: 3}
+    initialRotation: 3
+    nextRotation: 0
+    material: {fileID: 2100000, guid: a8774bc0efe021742b7f8699ec1801a9, type: 2}
+    gridIndex: 228
+    children: []
+  - parentBrick: {fileID: 7238081156108987821, guid: fea13917e9d1fb74da6800b3c473be56, type: 3}
+    initialRotation: 3
+    nextRotation: 0
+    material: {fileID: 2100000, guid: a8774bc0efe021742b7f8699ec1801a9, type: 2}
+    gridIndex: 168
+    children: []
+  - parentBrick: {fileID: 7238081156108987821, guid: fea13917e9d1fb74da6800b3c473be56, type: 3}
+    initialRotation: 0
+    nextRotation: 3
+    material: {fileID: 2100000, guid: 3b4edde236e7e6c4f95a452f21e6caef, type: 2}
+    gridIndex: 209
+    children: []
+  - parentBrick: {fileID: 6407336544377580156, guid: 1c6994de41b754d47a612a71b7d4bd57, type: 3}
+    initialRotation: 0
+    nextRotation: 3
+    material: {fileID: 2100000, guid: 3b4edde236e7e6c4f95a452f21e6caef, type: 2}
+    gridIndex: 190
+    children: []
+  - parentBrick: {fileID: 7238081156108987821, guid: fea13917e9d1fb74da6800b3c473be56, type: 3}
+    initialRotation: 0
+    nextRotation: 2
+    material: {fileID: 2100000, guid: 6116c7f6f2145f04cbc3fcbbb8712b92, type: 2}
+    gridIndex: 171
+    children: []
+  - parentBrick: {fileID: 7238081156108987821, guid: fea13917e9d1fb74da6800b3c473be56, type: 3}
+    initialRotation: 0
+    nextRotation: 3
+    material: {fileID: 2100000, guid: 6116c7f6f2145f04cbc3fcbbb8712b92, type: 2}
+    gridIndex: 231
+    children: []
+  cameraSettings: {fileID: 11400000, guid: 0116b5bdda7965842a68e747ed7807e8, type: 2}
+  frameSettings: {fileID: 11400000, guid: 9c2b8bf9627ed6346b370d9e549ae24e, type: 2}
